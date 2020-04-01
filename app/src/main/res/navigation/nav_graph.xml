@@ -5,6 +5,7 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/startFragment">
 
+
     <fragment
         android:id="@+id/startFragment"
         android:name="com.developerstudio2212.codingquiz.StartFragment"
