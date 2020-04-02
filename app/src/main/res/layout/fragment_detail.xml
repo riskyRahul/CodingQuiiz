@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
-        android:fontFamily="@font/work_sans_thin"
+        android:fontFamily="@font/work_sans"
         android:text="@string/quiz_description"
         android:textColor="@android:color/white"
         android:textSize="16sp"
@@ -52,9 +52,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
-        android:fontFamily="@font/work_sans_thin"
+        android:fontFamily="@font/work_sans"
         android:text="@string/difficulty"
-        android:textColor="@color/colorLightText"
+        android:textColor="@color/colorDarker"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/details_desc" />
@@ -66,9 +66,9 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:text="@string/total_questions"
-        android:textColor="@color/colorLightText"
+        android:textColor="@color/colorDarker"
         android:textSize="16sp"
-        android:fontFamily="@font/work_sans_thin"
+        android:fontFamily="@font/work_sans"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/details_difficulty" />
 
@@ -79,9 +79,9 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:text="@string/your_last_score"
-        android:textColor="@color/colorLightText"
+        android:textColor="@color/colorDarker"
         android:textSize="16sp"
-        android:fontFamily="@font/work_sans_thin"
+        android:fontFamily="@font/work_sans"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/details_questions" />
 
@@ -91,9 +91,9 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:text="@string/na"
-        android:textColor="@color/colorLightText"
+        android:textColor="@color/colorDarker"
         android:textSize="16sp"
-        android:fontFamily="@font/work_sans_thin"
+        android:fontFamily="@font/work_sans"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/details_difficulty" />
 
@@ -104,9 +104,9 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:text="@string/na"
-        android:textColor="@color/colorLightText"
+        android:textColor="@color/colorDarker"
         android:textSize="16sp"
-        android:fontFamily="@font/work_sans_thin"
+        android:fontFamily="@font/work_sans"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/details_difficulty_text" />
 
@@ -117,9 +117,9 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:text="@string/na"
-        android:textColor="@color/colorLightText"
+        android:textColor="@color/colorDarker"
         android:textSize="16sp"
-        android:fontFamily="@font/work_sans_thin"
+        android:fontFamily="@font/work_sans"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/details_questions_text" />
 
@@ -131,11 +131,11 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/primery_btn_back"
-        android:fontFamily="@font/work_sans_thin"
+        android:fontFamily="@font/work_sans"
         android:text="@string/start_quiz"
         android:textAllCaps="false"
         android:textSize="16sp"
-        android:textColor="@color/colorLightText"
+        android:textColor="@color/colorDarker"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

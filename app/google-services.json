@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "347852113329",
+    "firebase_url": "https://codingquiz-5a743.firebaseio.com",
+    "project_id": "codingquiz-5a743",
+    "storage_bucket": "codingquiz-5a743.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347852113329:android:f4ebfeb8d4431493b46990",
+        "android_client_info": {
+          "package_name": "com.developerstudio2212.codingquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347852113329-36dsqnhki414v6djvnh8gqvrc46sjiu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP4srSOynar3u8bfcmBoA2wMeGdlZsdU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347852113329-36dsqnhki414v6djvnh8gqvrc46sjiu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
