@@ -6,4 +6,5 @@
 
     <color name="colorDarker">#111111</color>
     <color name="light_text">#929292</color>
+    <color name="correct_ans">#32CD32</color>
 </resources>

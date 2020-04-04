@@ -10,16 +10,16 @@
 
     <ImageButton
         android:id="@+id/quiz_close_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="73dp"
+        android:layout_height="61dp"
         android:layout_marginTop="32dp"
         android:background="@android:color/transparent"
+        android:contentDescription="@string/todo"
         android:padding="16dp"
         android:src="@drawable/quiz_close_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/todo" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/quiz_title"
