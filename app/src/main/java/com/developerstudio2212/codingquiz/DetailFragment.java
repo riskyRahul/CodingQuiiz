@@ -31,6 +31,7 @@ public class DetailFragment extends Fragment implements View.OnClickListener {
 
     private QuizListViewModel quizListViewModel;
     private NavController navController;
+    private Long totalQusitions = 0L;
     private int position;
 
     private ImageView detailImage;
@@ -39,6 +40,8 @@ public class DetailFragment extends Fragment implements View.OnClickListener {
     private TextView detailDiff;
     private TextView detailQustions;
     private Button detailBtn;
+    private String quizId;
+
 
     public DetailFragment() {
         // Required empty public constructor
@@ -85,6 +88,8 @@ public class DetailFragment extends Fragment implements View.OnClickListener {
                 detailDiff.setText(quizListModelList.get(position).getLevel());
                 String str = Long.toString(quizListModelList.get(position).getQuestions());
                 detailQustions.setText(str);
+                quizId = quizListModelList.get(position).getQuiz_id();
+                totalQusitions = quizListModelList.get(position).getQuestions();
             }
         });
     }
@@ -94,7 +99,8 @@ public class DetailFragment extends Fragment implements View.OnClickListener {
         switch (v.getId()){
             case R.id.details_start_btn:
                 DetailFragmentDirections.ActionDetailFragmentToQuizFragment actionDetailFragmentToQuizFragment=DetailFragmentDirections.actionDetailFragmentToQuizFragment();
-                actionDetailFragmentToQuizFragment.setPosition(position);
+                actionDetailFragmentToQuizFragment.setTotalQusitions(totalQusitions);
+                actionDetailFragmentToQuizFragment.setQuizid(quizId);
                 navController.navigate(actionDetailFragmentToQuizFragment);
                 break;
         }
