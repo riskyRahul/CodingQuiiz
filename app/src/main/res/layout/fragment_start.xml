@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.core.widget.ContentLoadingProgressBar
+    <ProgressBar
         android:id="@+id/contentLoadingProgressBar"
         android:layout_width="32dp"
         android:layout_height="32dp"
@@ -39,7 +39,6 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
         android:fontFamily="@font/work_sans"
-        android:textColor="@color/colorDarker"
         android:text="@string/feedback"
         android:textSize="16sp"
         android:textAlignment="center"
